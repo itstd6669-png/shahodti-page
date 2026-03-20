@@ -1,0 +1,41 @@
+<p>&lt;!DOCTYPE html&gt;<br />&lt;html lang="ar"&gt;<br />&lt;head&gt;<br />&lt;meta charset="UTF-8"&gt;<br />&lt;title&gt;شهودتي ❤️&lt;/title&gt;</p>
+<p>&lt;style&gt;<br />body {<br />margin: 0;<br />font-family: Arial;<br />text-align: center;<br />color: white;<br />overflow-x: hidden;<br />background: url("https://images.unsplash.com/photo-1518895949257-7621c3c786d7") no-repeat center center/cover;<br />}</p>
+<p>.overlay {<br />background: rgba(0,0,0,0.7);<br />min-height: 100vh;<br />padding: 40px;<br />}</p>
+<p>.page { display: none; }<br />.active { display: block; }</p>
+<p>.card {<br />background: rgba(255,255,255,0.1);<br />padding: 30px;<br />border-radius: 20px;<br />backdrop-filter: blur(10px);<br />display: inline-block;<br />max-width: 600px;<br />}</p>
+<p>h1 { font-size: 40px; }<br />p { font-size: 22px; line-height: 1.9; }</p>
+<p>button {<br />margin-top: 20px;<br />padding: 10px 20px;<br />border: none;<br />border-radius: 10px;<br />background: #ff4d6d;<br />color: white;<br />font-size: 18px;<br />cursor: pointer;<br />}</p>
+<p>.images img {<br />width: 110px;<br />height: 110px;<br />border-radius: 50%;<br />margin: 5px;<br />object-fit: cover;<br />}</p>
+<p>.heart {<br />position: fixed;<br />bottom: -10px;<br />color: red;<br />animation: floatUp 5s linear infinite;<br />}</p>
+<p>@keyframes floatUp {<br />0% { transform: translateY(0); opacity: 1; }<br />100% { transform: translateY(-800px); opacity: 0; }<br />}<br />&lt;/style&gt;</p>
+<p>&lt;script&gt;<br />function showPage(pageId) {<br />document.querySelectorAll('.page').forEach(p =&gt; p.classList.remove('active'));<br />document.getElementById(pageId).classList.add('active');<br />}</p>
+<p>function createHeart() {<br />const heart = document.createElement("div");<br />heart.classList.add("heart");<br />heart.innerHTML = "❤️";<br />heart.style.left = Math.random() * 100 + "vw";<br />heart.style.fontSize = (Math.random() * 20 + 20) + "px";<br />document.body.appendChild(heart);<br />setTimeout(() =&gt; { heart.remove(); }, 5000);<br />}<br />setInterval(createHeart, 500);</p>
+<p>function showLove() {<br />document.getElementById("loveText").style.display = "block";<br />}<br />&lt;/script&gt;</p>
+<p>&lt;/head&gt;</p>
+<p>&lt;body&gt;</p>
+<p>&lt;!-- موسيقى YouTube تلقائي --&gt;<br />&lt;iframe id="ytMusic" <br />src="https://www.youtube.com/embed/fGFB29lQ-Vs?autoplay=1&amp;loop=1&amp;playlist=fGFB29lQ-Vs"<br />allow="autoplay"<br />style="display:none;"&gt;<br />&lt;/iframe&gt;</p>
+<p>&lt;div class="overlay"&gt;</p>
+<p>&lt;!-- الصفحة 1 --&gt;<br />&lt;div id="page1" class="page active"&gt;<br />&lt;div class="card"&gt;<br />&lt;h1&gt;عيدك مبارك يا شهودتي ❤️&lt;/h1&gt;</p>
+<p>&lt;p&gt;<br />كل عام وانتي أقرب إنسانة لقلبي😔&lt;br&gt;<br />وكل عام وضحكتك تفرحني وتكون سبب راحتي ❤️&lt;br&gt;&lt;br&gt;</p>
+<p>يا شهودي &hellip; انتي وجودك في حياتي نعمة كبيره بكل&lt;br&gt;<br />وان شاءلله ربي يخليك ليا وما يحرمنيش منك ي اغلى شي صارلي ف حياتي كلها 💫&lt;br&gt;&lt;br&gt;</p>
+<p>انتي مش بس حبيبتي&hellip;&lt;br&gt;<br />انتي فرحتي&hellip; وراحة بالي&hellip; وكل دنيتي 🥺❤️<br />&lt;/p&gt;</p>
+<p>&lt;div class="images"&gt;<br />&lt;!-- صور قلوب وورد كرابط مباشر --&gt;<br />&lt;img src="https://cdn.pixabay.com/photo/2017/08/06/09/36/heart-2590996_1280.png"&gt;<br />&lt;img src="https://cdn.pixabay.com/photo/2016/04/01/11/03/heart-1301790_1280.png"&gt;<br />&lt;img src="https://cdn.pixabay.com/photo/2016/03/31/19/21/heart-1293856_1280.png"&gt;<br />&lt;img src="https://cdn.pixabay.com/photo/2017/01/31/21/21/heart-2025974_1280.png"&gt; &lt;!-- قلب إضافي --&gt;<br />&lt;/div&gt;</p>
+<p>&lt;button onclick="showPage('page2')"&gt;اضغطي هنا 💌&lt;/button&gt;<br />&lt;/div&gt;<br />&lt;/div&gt;</p>
+<p>&lt;!-- الصفحة 2 --&gt;<br />&lt;div id="page2" class="page"&gt;<br />&lt;div class="card"&gt;<br />&lt;h1&gt;لشهودتي ❤️&lt;/h1&gt;</p>
+<p>&lt;p&gt;<br />من أول ما عرفتك&hellip; حسّيت إن حياتي بدت تتغير للاحسن 💫&lt;br&gt;&lt;br&gt;</p>
+<p>نحبك على كل شي فيك&hellip;&lt;br&gt;<br />على ضحكتك &hellip; على طيبتك &hellip; على قلبك الحلو ❤️&lt;br&gt;&lt;br&gt;</p>
+<p>معاك نحس روحي متريح&hellip;&lt;br&gt;<br />ونبي نحكيلك كل شي بدون خوف 🤍&lt;br&gt;&lt;br&gt;</p>
+<p>انتي الشي اللي كان ناقصني&lt;br&gt;<br />وانتي أجمل حاجة صارتلي 🥺❤️<br />&lt;/p&gt;</p>
+<p>&lt;button onclick="showPage('page3')"&gt;كملي 💕&lt;/button&gt;<br />&lt;/div&gt;<br />&lt;/div&gt;</p>
+<p>&lt;!-- الصفحة 3 --&gt;<br />&lt;div id="page3" class="page"&gt;<br />&lt;div class="card"&gt;<br />&lt;h1&gt;اعتراف ❤️&lt;/h1&gt;</p>
+<p>&lt;p&gt;<br />تبي الصراحة؟&lt;br&gt;&lt;br&gt;</p>
+<p>انا ما نقدرش نتخيل يومي بدونك&hellip;&lt;br&gt;<br />ولا نبي نعيش لحظة وانتي مش معايا 😔❤️&lt;br&gt;&lt;br&gt;</p>
+<p>نبيك تبقي جنبي ديما&hellip;&lt;br&gt;<br />في كل يوم&hellip; في كل ظرف&hellip; في كل شي 💕&lt;br&gt;&lt;br&gt;</p>
+<p>نحبك حب كبير يا شهودتي&lt;br&gt;<br />حب طالع من اعماق قلبي ❤️&lt;br&gt;&lt;br&gt;</p>
+<p>ومهما نقول&hellip;&lt;br&gt;<br />عمري ما نوصل نص اللي نحسه اتجاهك 🥺❤️<br />&lt;/p&gt;</p>
+<p>&lt;button onclick="showLove()"&gt;اضغطي هنا ❤️&lt;/button&gt;</p>
+<p>&lt;p id="loveText" style="display:none; font-size:28px; margin-top:20px; color:#ffccd5;"&gt;<br />نحبك ي شهودتي ودنيتي وروحي وكلشي ليا ❤️<br />&lt;/p&gt;</p>
+<p>&lt;br&gt;<br />&lt;button onclick="showPage('page1')"&gt;ارجعي للبداية ❤️&lt;/button&gt;</p>
+<p>&lt;/div&gt;<br />&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/body&gt;<br />&lt;/html&gt;</p>
